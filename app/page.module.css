@@ -1,0 +1,389 @@
+/* 在文件开头添加或修改以下样式 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 修改 titleContainer 的样式 */
+.titleContainer {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 修改 searchContainer 的样式 */
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+  flex-wrap: wrap;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 200px;
+  max-width: 400px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.select {
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+
+/* 修改 courseList 的样式 */
+.courseList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.main {
+  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  color: #1d1d1f;
+  line-height: 1.47059;
+  letter-spacing: -0.022em;
+}
+
+.hero {
+  background-color: #fbfbfd;
+  text-align: center;
+  padding: 120px 20px;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.title {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: .004em;
+  margin-bottom: 30px;
+  color: #86868b;
+}
+
+.cta {
+  font-size: 21px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: .011em;
+  color: #0066cc;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 2px solid #0066cc;
+  border-radius: 22px;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
+.services {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.sectionTitle {
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -.003em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 600px;  /* 减小最大宽度 */
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  padding: 30px;
+  background-color: #fbfbfd;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+  min-height: 200px;  /* 添加最小高度 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardBorder {
+  border: 1px solid #d2d2d7;
+}
+
+.card:hover {
+  background-color: #f5f5f7;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: .009em;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  color: #86868b;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+  flex-wrap: wrap;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 200px;
+  max-width: 400px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.select {
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+
+.select:focus {
+  border-color: #0066cc;
+  box-shadow: 0 0 8px rgba(0, 102, 204, 0.3);
+}
+
+.courseList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.courseCard {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.courseCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.courseCard h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.courseCard p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.brTag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.br1 { background-color: #FF6B6B; }
+.br2 { background-color: #4ECDC4; }
+.br3 { background-color: #45B7D1; }
+.br4 { background-color: #FFA07A; }
+.br5 { background-color: #98D8C8; }
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.commentButton {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.commentList {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.comment {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.commentInput {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submitButton, .closeButton {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.closeButton {
+  background-color: #666;
+}
+
+.addCourseButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pendingCourses {
+  margin-top: 40px;
+}
+
+.pendingCourses h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* 为添加新水课的表单添加样式 */
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal form input,
+.modal form textarea,
+.modal form select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.modal form textarea {
+  height: 100px;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0066cc;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #666;
+  font-weight: 300;
+}
+
+.addCourseButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  margin: 20px auto 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.addCourseButton:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
